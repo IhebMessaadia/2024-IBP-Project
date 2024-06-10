@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Messages Page</title>
+     <link rel="stylesheet" href="styles.css">
+     <script src="java.js"></script>
+</head>
+<body>
+     
+      <div class="navbar">
+        <p id="title">My Website</p>
+        
+        <a href="message.html">Contact</a>
+        <a href="announcement.html">Services</a>
+        <a href="home.html">Home</a>
+      </div>
+     <form action="reply.php" method="post">
+        <label for="message">Message:</label>
+        <textarea id="msg" name="msg" placeholder="Leave us your feedback"></textarea><br>
+        <input type="submit" value="Send" onclick="verif()">
+    </form>
+    <footer>
+       
+       <p id="def">&copyKarabuk University<br>
+       Directed by IHEB MESSAADIA</p>
+   </footer>
+</body>
+</html>
